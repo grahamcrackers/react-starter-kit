@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
+import { Button } from 'react-toolbox/lib/button';
 
 const HomePage = () => {
   return (
@@ -7,7 +8,7 @@ const HomePage = () => {
       <h1>React Starter Kit</h1>
         
         <div>
-            <h1>Hello Graham!</h1>
+            <Button label="Hello Graham!" raised/>
         </div>
     </div>
   );
