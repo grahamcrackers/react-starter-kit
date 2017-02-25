@@ -12,6 +12,8 @@ module.exports = {
     module: {
         rules: [
             {test: /\.js$/, use: 'babel-loader'},
+            // For using react-toolbox
+            // https://github.com/react-toolbox/react-toolbox-example/issues/32#issuecomment-273505521
             {test: /\.css$/,
                 use: [
                     'style-loader',
